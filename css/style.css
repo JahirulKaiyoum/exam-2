@@ -1,0 +1,278 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    padding: 36px 0px;
+}
+.logo img {
+display: block;
+max-width: 100%;
+}
+nav ul {
+list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 26px;
+}
+nav ul li a{	
+text-decoration: none;
+color: #c4c4c4;
+font-size: 16px;
+}
+/* Banner section starts*/
+.Banner {
+    background: url(../img/icrowdme-PSD---cssauthor.png) center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 0px;
+}
+.Banner-content{
+text-align: center;
+}
+.Banner-content h1{
+font-size:45px;
+color:  deepskyblue;
+}
+.Banner-content p {
+    font-size: 35.2px;
+    margin-top: 20px;
+}
+.cstm-btn {
+    margin-top: 55px;
+    padding: 20px;
+    background: #99c50a;
+    border-radius: 9px;
+    border: none;
+}
+						/* Banner section ends*/
+
+						/* work section starts*/
+}
+.icon-img{
+	margin-bottom: 20px;
+}
+.work-top {
+    text-align: center;
+    padding-top: 95px;
+    padding-bottom: 60px;
+}
+.work-top h1{
+ font-size: 30px;
+ color: #515151;
+}
+.work-content {
+    text-align: center;
+    padding-bottom: 110px;
+}
+.work-content p {
+    color: #999999;
+    font-size: 15px;
+}
+						/* Banner section ends*/
+
+						/*properties & buyer section starts*/						
+.property{
+background:#e2f8ff;
+}
+.property-one {
+    padding-top: 100px;
+}
+.property-content {
+    padding-top: 110px;
+    padding-bottom: 45px;
+}
+.cstm-btn-two{
+background: #26a6d1;
+border: none;
+}
+.buyer{
+background: #f5f9eb;
+}
+.buyer-one {
+    padding-top: 112px;
+}
+.buyer-content{
+    padding-top: 110px;
+    padding-bottom: 45px;
+}
+.cstm-btn-three{
+    background: #add136;
+    border: none;
+}
+                        /*properties & buyer section ends*/
+
+
+                        /*project-showcasing section starts*/
+
+.project-shocasing {
+    padding-bottom: 25px;
+}
+.showcase-top {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+  
+.showcase-btn {
+    text-align: end;
+    padding-top: 90px;
+}
+.cstm-btn-four {
+    background-color: transparent;
+    color: #838383;
+    border-top-color: #838383;
+    border-bottom-color: #838383;
+    border-left-color: #838383;
+    border-right-color: #838383;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.card{
+    border-radius: 12px;
+    position: relative;
+    background: #f9f9f9;
+}
+.projct-btn-two {
+    position: absolute;
+    right: 29px;
+    bottom: 337px;
+    padding: 7px;
+    border: none;
+    border-radius: 8px;
+    background: #26a6d1;
+}
+.card-botton{
+    padding-top: 20px;
+    color: #a3a3a3;
+
+}
+.card-botton span {
+    margin-left: 101px;
+    color: #a3a3a3;
+}
+
+.underline{
+    border-bottom: 1px solid #a3a3a3;
+    display: block;
+    width: 256px;
+    margin: 3px auto;
+
+}
+.icon{
+    margin-left: 110px;
+    color: #6c6c6c;
+}
+span .fa.fa-caret-right {
+    font-size: 24px;
+    color: greenyellow;
+    margin-left: 6px;
+    padding-bottom: 27px;
+}
+
+                        /*project-showcasing section ends*/
+                        /*footer*/
+
+.social {
+    padding-top: 54px;
+    padding-bottom: 79px;
+}
+.social-img {
+    width: 100%;
+}
+                        /* footer ends*/
+footer{
+   
+    border-top-color: black;
+    border-top: 1px solid black;
+}
+                    
+.footer-content{
+    text-align: center;
+    
+    padding: 30px 0px;
+}                
+                        /* Media query */
+
+/* mobile device*/
+@media(min-width:320px) and (max-width:500px){
+
+    .Banner {
+        background: url(../img/icrowdme-PSD---cssauthor.png) center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 66px 0px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-left: 155px;
+    }
+    .work-top {
+        text-align: center;
+        padding-top: 48px;
+        padding-bottom: 24px;
+    }
+    .work-content {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .work-content {
+        text-align: center;
+        padding-bottom: 13px;
+    }
+    .property-content {
+        padding-top: 41px;
+        padding-bottom: 45px;
+        text-align: center;
+    }
+    .property-one {
+        padding-top: 100px;
+        text-align: center;
+    }
+    .buyer-one {
+        padding-top: 35px;
+        text-align: center;
+    }
+    .buyer-content {
+        padding-top: 25px;
+        padding-bottom: 36px;
+        text-align: center;
+    }
+    .showcase-top {
+        padding-top: 28px;
+        padding-bottom: 0px;
+    }
+    .showcase-btn {
+        text-align: end;
+        padding-top: 14px;
+        text-align: center;
+    }.showcase-btn {
+        text-align: end;
+        padding-top: 14px;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+
+
+
+}
+/* ipad device*/
+@media(min-width:501.01px) and (max-width:768px){
+
+
+}
+/* laptop/desktop device*/
+@media(min-width:768.01px) and (max-width:1200px){
+
+
+}
+/* large device*/
+@media(min-width:1200.01px){
+
+
+}
